@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Swiper demo - navigation</title>
+	<!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<!-- Swiper -->
+	
+	<div class="swiper-container">
+	
+		<div class="swiper-wrapper">
+			<div class="swiper-slide"><img src="images/img1.jpg" alt="img 1"></div>
+			<div class="swiper-slide"><img src="images/img2.jpg" alt="img 2"></div>
+			<div class="swiper-slide"><img src="images/img3.jpg" alt="img 3"></div>
+			<div class="swiper-slide"><img src="images/img4.jpg" alt="img 4"></div>
+			<div class="swiper-slide"><img src="images/img5.jpg" alt="img 4"></div>
+			<div class="swiper-slide"><img src="images/img6.jpg" alt="img 4"></div>
+			<div class="swiper-slide"><img src="images/img7.jpg" alt="img 4"></div>
+			<div class="swiper-slide"><img src="images/img8.jpg" alt="img 4"></div>
+			<div class="swiper-slide"><img src="images/img9.jpg" alt="img 4"></div>
+			<div class="swiper-slide"><img src="images/img9.jpg" alt="img 4"></div>
+		</div>
+		<!-- Add Arrows -->
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
+  </div>
+  <!--music file-->
+  <embed src="music2.mp3" autostart="true" loop="true">
+  <width="2" height="0">
+    <script src="index.js"></script>
+  </embed>
+
+<audio src="music.mp3"></audio>
+   
+	<!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  
+  
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+  <script src="index.js"></script>
+</body>
+
+</html>
